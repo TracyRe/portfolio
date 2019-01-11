@@ -31,8 +31,9 @@ h4 {
 .container-fluid .jumbotron {
   padding-right: 20px;
   padding-left: 20px;
-  border-radius: 0 0 16px 16px;
-  min-height: 240px;
+  border-radius: 0 0 18px 18px;
+  min-height: 242px;
+  /* border: 1px solid #ccc; */
 }
 
 .container-fluid {
@@ -50,14 +51,15 @@ h4 {
 }
 
 
-
-@media screen and (min-width: 768px) {
-
-}
-
 .date {
   font-size: 90%;
   font-style: italic;
+}
+
+.objective, .partner, .coded {
+  font-weight: bold;
+  font-style: italic;
+  color:inherit;
 }
 
 /* BORDERS FOR DEBUGGING STYLES */
