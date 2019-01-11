@@ -1,5 +1,5 @@
 body {
-  color: #3d495e;
+  color: #3d5172;
   background-color: #F9F9F9;
   font-size: 1.65rem;
 }
@@ -21,7 +21,7 @@ h4 {
 .jumbotron img {
   width: 200px;
   border-radius: 10px;
-  border: 1px solid #eee;
+  border: 1px solid #ced5e0;
   float: left;
   margin-right: 3rem;
 }
