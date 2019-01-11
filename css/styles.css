@@ -1,0 +1,32 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  color: #3d495e;
+  background-color: #F9F9F9;
+}
+
+h1, h2 {
+  font-family: Times, Georgia, serif;
+  font-weight: normal;
+}
+
+.banner img {
+  width: 200px;
+}
+
+
+.banner h1 {
+  font-size: 6rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .banner h1 {
+    font-size: 3rem;
+  }
+}
+
+
+
+/* .banner div {
+  border: 1px solid #f0f;
+} */
