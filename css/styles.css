@@ -14,21 +14,41 @@ h4 {
   font-weight: bold;
 }
 
+.jumbotron {
+
+}
+
 .jumbotron img {
   width: 200px;
   border-radius: 10px;
   border: 1px solid #eee;
+  float: left;
+  margin-right: 3rem;
 }
 
-@media only screen and (max-width: 900px) {
-  .jumbotron h1 {
-    font-size: 4rem;
-  }
+.container .jumbotron,
+.container-fluid .jumbotron {
+  border-radius: 0 0 16px 16px;
+}
 
-  /* .jumbotron p {
-    font-weight: normal;
-    font-size: 2.5rem;
-  } */
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-content {
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
 }
 
 .date {
