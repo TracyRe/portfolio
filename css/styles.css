@@ -9,9 +9,30 @@ h1, h2 {
   font-weight: normal;
 }
 
+h2 {
+  font-size: 4rem;
+}
+
+h2:nth-of-type(1n+2) {
+  border-top: 2px solid #63789b;
+  padding-top: 1.5rem;
+}
+
+h3, h4 {
+  margin-bottom: .35rem;
+}
+
 h4 {
   font-style: italic;
   font-weight: bold;
+}
+
+ul, ol {
+  padding-left: 1.65rem;
+}
+
+ul li ul {
+  padding-left: 2.5rem;
 }
 
 .jumbotron {
@@ -22,10 +43,10 @@ h4 {
 .jumbotron img {
   width: 200px;
   border-radius: 10px;
-  border: 1px solid #ced5e0;
   float: left;
   margin-right: 3rem;
 }
+
 
 .container .jumbotron,
 .container-fluid .jumbotron {
@@ -50,16 +71,29 @@ h4 {
   margin-left: auto;
 }
 
+.project {
+  background: #dee6ea;
+  padding: 1px 5px 5px 15px;
+  margin: 20px 0 0 0;
+}
 
 .date {
   font-size: 90%;
   font-style: italic;
+  font-weight: bold;
 }
 
 .objective, .partner, .coded {
   font-weight: bold;
   font-style: italic;
   color:inherit;
+}
+
+@media screen and (max-width: 420px) {
+  .jumbotron img {
+    margin-right: 150px;
+  }
+
 }
 
 /* BORDERS FOR DEBUGGING STYLES */
