@@ -11,6 +11,7 @@ Landing page for portfolio of work created for Epicodus Front End Development co
 ## Setup/Installation Requirements
 
 * Clone from https://github.com/TracyRe/portfolio.git
+* View at https://TracyRe.github.io/portfolio
 * Open in browser of your choice
 * Edit .html files as desired
 
